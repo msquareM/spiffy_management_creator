@@ -1,0 +1,20 @@
+{
+    "name": "trioangle/spiffy_management_generate",
+    "description": "This package will generate management automatically for admin panel particularly for spiffy and igniter projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "karthickraja",
+            "email": "karthickraja.gm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Trioangle\\SpiffyAutogenerate\\": "packages/Trioangle/SpiffyAutogenerate/src"
+        }
+    },
+    "require": {
+        
+    }
+}
