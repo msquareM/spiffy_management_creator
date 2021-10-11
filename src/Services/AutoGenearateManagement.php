@@ -19,8 +19,10 @@ class AutoGenearateManagement extends CheckGenerateFiles
 	{	
 		$this->name = ucwords(strtolower($name));
 		$this->fields = $fields;
-		$this->path = public_path('/Precedential');
+		//$this->path = public_path('/Precedential');
+		$this->path = AUTO_GENERATE_SRC_PATH;
 		$this->setNames();
+
 	}
 
 

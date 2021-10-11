@@ -16,7 +16,6 @@ class ModelCreator extends AutoGenearateManagement
 		$this->newFileLocation = $fileLocation.$this->fileName;
 		$this->originalFileName = $fileName;
 		
-
 	}
 
 

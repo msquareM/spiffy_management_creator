@@ -18,6 +18,10 @@ class AutoGenerateManagementServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'autogenerate');
 
         include __DIR__.'/routes.php';
+
+        $path = __DIR__.'/Precedential';
+
+        define('AUTO_GENERATE_SRC_PATH',$path);
     }
 
     /**
