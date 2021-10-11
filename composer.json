@@ -11,10 +11,20 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Trioangle\\SpiffyAutogenerate\\": "packages/Trioangle/SpiffyAutogenerate/src"
+            "Trioangle\\SpiffyAutogenerate\\": "src/"
         }
     },
     "require": {
         
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Trioangle\\SpiffyAutogenerate\\AutoGenerateManagementServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
     }
 }
