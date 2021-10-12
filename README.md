@@ -1,8 +1,9 @@
 # Trioangle Spiffy Management Auto Generator
 
-This Package Only Created for Spiffy Project to create auto matic create management.
+This Package Only Created for Spiffy Project.
+To create automatic create management.
 
-Supported Spiffy Version 
+## Supported Spiffy Version 
 
 @package     Spiffy
 @author      Trioangle Service Team
@@ -10,4 +11,4 @@ Supported Spiffy Version
 @link        http://trioangle.com
 
 
-# Note: Beware Before Install another projects. Because it may affect your project flow.. 
+## Note: Beware Before Install other projects. Because it may affect your project flow.. 
