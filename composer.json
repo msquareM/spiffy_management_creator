@@ -1,5 +1,6 @@
 {
     "name": "trioangle/spiffy_management_generate",
+    "type": "library",
     "description": "This package will generate management automatically for admin panel particularly for spiffy projects only.",
     "license": "MIT",
     "authors": [
@@ -13,6 +14,11 @@
         "psr-4": {
             "Trioangle\\SpiffyAutogenerate\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trioangle\\SpiffyAutogenerate\\": "src/"
+         }
     },
     "require": {
         "php": "^7.2.5",
